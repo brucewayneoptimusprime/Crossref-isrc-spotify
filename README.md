@@ -214,7 +214,3 @@ Data Engineer & AI Researcher
 [LinkedIn](https://www.linkedin.com/in/aditya-vikram-singh) | [GitHub](https://github.com/brucewayneoptimusprime)
 
 ---
-
-
-Would you like me to also generate a **short version** (one-page compact README.md for Kaggle or portfolio mirroring) after this — optimized for recruiters who scan fast (under 60 seconds)?
-```
