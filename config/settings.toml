@@ -1,0 +1,18 @@
+# === Project Configuration ===
+[data]
+raw_tsv = "data/raw/unclaimedmusicalworkrightshares.tsv"
+db_engine = "duckdb"
+db_path = "data/processed/unclaimed.duckdb"
+
+[artist]
+name = "YOUR_ARTIST_NAME_HERE"
+spotify_id = ""  # optional, fill later
+
+[export]
+workbook_path = "reports/tritone_artist_catalog.xlsx"
+sheet1 = "Artist Catalog"
+sheet2 = "Matches (Unclaimed)"
+sheet3 = "Notes"
+
+[logs]
+dir = "logs/"

@@ -1,0 +1,64 @@
+# -------------------------------
+# PYTHON / ENVIRONMENT
+# -------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.tmp
+.venv/
+env/
+venv/
+
+# -------------------------------
+# SYSTEM / IDE
+# -------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# -------------------------------
+# SECRETS
+# -------------------------------
+.env
+*.key
+*.pem
+spotify_token_cache*
+token_cache*
+config/settings.toml  # only if secrets ever added
+
+# -------------------------------
+# DATA (Large Files)
+# -------------------------------
+data/raw/
+data/interim/
+data/processed/
+*.duckdb
+*.tsv
+*.csv
+
+# -------------------------------
+# LOGS
+# -------------------------------
+logs/
+*.log
+
+# -------------------------------
+# REPORTS (Keep only finals)
+# -------------------------------
+reports/figures/
+reports/figures_enhanced/
+reports/figures_advanced/
+reports/*.json
+reports/*.csv
+# Keep these specific small files
+!reports/tritone_multi_artist_report.xlsx
+!reports/tritone_artist_catalog.xlsx
+
+# -------------------------------
+# BACKUP / MISC
+# -------------------------------
+*.bak
+*.old
+*.zip
