@@ -61,6 +61,8 @@ tritone-assignment/
 
 ## 3. Technical Architecture
 
+![Project Architecture](tritone_graph.png)
+
 The following summarizes the architecture and key data flow stages:
 
 1. **Data Ingestion (DuckDB + Chunked TSV Loader)**  
